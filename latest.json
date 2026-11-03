@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "notes": "первая мажорная версия: Spotify через librespot (вход окном, лайки, плейлисты, поиск, звук в плеере Ankh; нужен Premium); автообновление из репозитория AnkhReleases на GitHub и команда `npm run release`; «Сияние» без CSS-фильтров (на части видеокарт Windows 10 пятна мерцали); возвращена прежняя иконка с анхом.",
+  "pub_date": "2026-11-03T18:23:32.295Z",
+  "platforms": {
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWWdRRkdJVXJYdFFJaUo1bGdPNWNGelZQQ1dGK0RVTmloaXNWM1VhTS8wblFFdWxRRWhvcW5sa3diVnZDTE5yQWFBTUFqS2Y5bitRamNMc0ZxZjQvcjM4R1hCa0tzekFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzMwMjExCWZpbGU6QW5raF8xLjAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjAKbGdqZCtwMUoxK05jT1FZalZwbFM5MzlUYytuaU5SbVhGbjVwdW51dkFHbERPaXhxYkNLQjFaNGhPRUdPOWg0VzlzanlIR0gyNytONDZabzh2dnFFQ3c9PQo=",
+      "url": "https://raw.githubusercontent.com/treenulya/AnkhReleases/main/Ankh_1.0.0_x64-setup.exe"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWWdRRkdJVXJYdFFJaUo1bGdPNWNGelZQQ1dGK0RVTmloaXNWM1VhTS8wblFFdWxRRWhvcW5sa3diVnZDTE5yQWFBTUFqS2Y5bitRamNMc0ZxZjQvcjM4R1hCa0tzekFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzMwMjExCWZpbGU6QW5raF8xLjAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjAKbGdqZCtwMUoxK05jT1FZalZwbFM5MzlUYytuaU5SbVhGbjVwdW51dkFHbERPaXhxYkNLQjFaNGhPRUdPOWg0VzlzanlIR0gyNytONDZabzh2dnFFQ3c9PQo=",
+      "url": "https://raw.githubusercontent.com/treenulya/AnkhReleases/main/Ankh_1.0.0_x64-setup.exe"
+    }
+  }
+}
