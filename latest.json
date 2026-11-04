@@ -1,15 +1,15 @@
 {
-  "version": "1.0.1",
-  "notes": "исправлено: Ankh закрывался при запуске, если в Spotify был сохранён вход с бесплатным аккаунтом (librespot завершал весь процесс). Теперь бесплатный аккаунт не подключается к librespot (понятное сообщение «нужен Premium»), старый такой вход забывается, а в своей копии librespot-core вместо выхода закрывается только сессия Spotify.",
-  "pub_date": "2026-11-03T19:30:57.109Z",
+  "version": "1.1.0",
+  "notes": "текст «разговаривает»: эмоциональные слова в плавающем режиме (сердце, бесконечность, удар, эхо, жестокость, сон, ангел), бэк-вокал в скобках полупрозрачный, самолёт, глаголы любви), облако и крылья — живые контуры в стиле фигуры, а на самолёт (как на сердце) превращается сама фигура; при смене строки от фигуры отделяются кусочки, кружат и возвращаются; проигрыши (♪) — фигура танцует; кнопка плавающего режима; сильные моменты трека (нарастание → взрыв, несколько за трек) встречаются нарастающим светом и вспышкой по краям экрана. Анализ больше не качает треки Яндекса второй раз (копия собирается из того, что качает плеер), а обрыв потока посреди трека больше не переключает трек — плеер переподключается с того же места. Плавающий режим легче: пока «Сейчас играет» открыт, страница и фон под ним не рисуются и не анимируются, текст перерисовывается только при смене строки, невидимые строки — простой текст; на взрыве светлеет и фон; вспышка больше не опаздывает на 1–2 с; бэк-вокал всплывает отдельно за фигурой; название трека в тексте подчёркивается живой линией; фигура превращается в самолёт, как в сердце; возврат бита после паузы больше не считается взрывом; поцелуй — фигура превращается в губы; слово-удар нарастает (каждый удар бита сильнее предыдущего), а не большое сразу; живые контуры (облако, крылья, подчёркивание) светятся без SVG-фильтров и обновляются 30 раз в секунду. Часто повторяющиеся строки (как в Who — Tommy Cash) после первых двух падают сверху дождём слов. Слово, повторённое в строке 3+ раза подряд («утопия, утопия, утопия»), рассыпается по экрану, а последний повтор приписывается к фразе.",
+  "pub_date": "2026-11-04T01:07:06.730Z",
   "platforms": {
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWWdRRkdJVXJYdFROaHVUYlJyOU9FdWpaeHFXS296cWI5eUl2UEM4WHZORVBZMWtwMGI0TGZLT0VkVmprMUJxbTlMU2JNVHVKMjJURmlURFBYTDRWQ1YxblhsbzZKU3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzM0MjU2CWZpbGU6QW5raF8xLjAuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjEKZHAvcWN3d21LTW8vN3J2eGdaZ2hVaEJJNTZNRjJ2RUdPRDNHcnhnNmsvOFBZUmhNZ0tzTjZ4ak95ZlVKdU9Eb2dGMHEydXFXU1c5aTFCMk1SeW5VQWc9PQo=",
-      "url": "https://raw.githubusercontent.com/treenulya/AnkhReleases/main/Ankh_1.0.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWWdRRkdJVXJYdGFmcGhkYm13TXE4MnhRblRFNjZIc2M3ZTZ6MzlTT3Znck81Vm9NR05ISlQwY0xxUk92MjlDYWphQWhSOTBsQmIxYkVJNGY1SU9vTCtWeDR1Ky9ENndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzU0NDI2CWZpbGU6QW5raF8xLjEuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xLjAKNXd6MGlzeXRUbWZnQlcxUy9xZStnLzN0OXJkWHdOeENDRVpubWpyMjVYSFpIOVlnWWZQdUtFQnZXa1d6UHFiMUk0UXFpcFpiT0FweU1HTFAvTU9lRGc9PQo=",
+      "url": "https://raw.githubusercontent.com/treenulya/AnkhReleases/main/Ankh_1.1.0_x64-setup.exe"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWWdRRkdJVXJYdFROaHVUYlJyOU9FdWpaeHFXS296cWI5eUl2UEM4WHZORVBZMWtwMGI0TGZLT0VkVmprMUJxbTlMU2JNVHVKMjJURmlURFBYTDRWQ1YxblhsbzZKU3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzM0MjU2CWZpbGU6QW5raF8xLjAuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjEKZHAvcWN3d21LTW8vN3J2eGdaZ2hVaEJJNTZNRjJ2RUdPRDNHcnhnNmsvOFBZUmhNZ0tzTjZ4ak95ZlVKdU9Eb2dGMHEydXFXU1c5aTFCMk1SeW5VQWc9PQo=",
-      "url": "https://raw.githubusercontent.com/treenulya/AnkhReleases/main/Ankh_1.0.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWWdRRkdJVXJYdGFmcGhkYm13TXE4MnhRblRFNjZIc2M3ZTZ6MzlTT3Znck81Vm9NR05ISlQwY0xxUk92MjlDYWphQWhSOTBsQmIxYkVJNGY1SU9vTCtWeDR1Ky9ENndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzU0NDI2CWZpbGU6QW5raF8xLjEuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xLjAKNXd6MGlzeXRUbWZnQlcxUy9xZStnLzN0OXJkWHdOeENDRVpubWpyMjVYSFpIOVlnWWZQdUtFQnZXa1d6UHFiMUk0UXFpcFpiT0FweU1HTFAvTU9lRGc9PQo=",
+      "url": "https://raw.githubusercontent.com/treenulya/AnkhReleases/main/Ankh_1.1.0_x64-setup.exe"
     }
   }
 }
